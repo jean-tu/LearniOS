@@ -29,3 +29,6 @@ override func viewDidLoad() {
     }
 ```
 
+## Creating Button Actions 
+
+If you want a button to be able to do something, you creat an **action**. 
