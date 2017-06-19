@@ -14,7 +14,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+    }
+    @IBAction func didTapButton(_ sender: Any) { //for the "Tap Me!" button 
         myLabel.text = "Changed with Code!"
+
     }
 
     override func didReceiveMemoryWarning() {
