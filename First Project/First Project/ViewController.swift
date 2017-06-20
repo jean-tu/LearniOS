@@ -23,9 +23,9 @@ class ViewController: UIViewController {
         
     }
     @IBAction func didTapBotton(_ sender: Any) {
-        let name = textField.text! //there may not be any data in the field, so we add the exclamation mark, to unwrapp the value 
+        let name = textField.text! //there may not be any data in the field, so we add the exclamation mark, to unwrapp the value
         secondLabel.text = "Hi \(name)!"
-
+        textField.resignFirstResponder() //make the keyboard disappear when you click on the "Say Hi" button
     }
 
     override func didReceiveMemoryWarning() {
