@@ -32,3 +32,15 @@ override func viewDidLoad() {
 ## Creating Button Actions 
 
 If you want a button to be able to do something, you creat an **action**. 
+
+## Variables 
+By creating a variable with an exclamation point **(!)** at the end, we are setting the value to null (no value). 
+
+Example: `@IBOutlet weak var myLabel: UILabel!`
+
+* IB = Interface Builder - what was used to build the GUI seperately 
+
+You can have a question mark **(?)** around it, means that it is a wrapper. If you want to be able to access the actual variable value you have to unwrapp the wrapper with some extra code. 
+
+* Outlets create variables 
+* Actions create methods 
