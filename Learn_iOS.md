@@ -42,5 +42,10 @@ Example: `@IBOutlet weak var myLabel: UILabel!`
 
 You can have a question mark **(?)** around it, means that it is a wrapper. If you want to be able to access the actual variable value you have to unwrapp the wrapper with some extra code. 
 
+* **var** - if the variable is going to change 
+	* `var age`
+* **let** - if the variable is a constant 
+	* `var name`
+
 * Outlets create variables 
 * Actions create methods 
