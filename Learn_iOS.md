@@ -49,3 +49,9 @@ You can have a question mark **(?)** around it, means that it is a wrapper. If y
 
 * Outlets create variables 
 * Actions create methods 
+
+
+### Delegation 
+**Delegation** is where one object delegates the handling of its events to another object 
+
+You have to flag a class as being able to have a delagate
