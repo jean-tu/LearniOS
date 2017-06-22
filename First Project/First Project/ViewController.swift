@@ -17,7 +17,7 @@ class ViewController: UIViewController, UITextFieldDelegate { //View Controller 
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         secondLabel.text = "" // making the label empty upon loading 
-        textField.delegate = self // assigning the delegate
+        //textField.delegate = self // assigning the delegate, or you can go to the Storyboard and connect it to the View Controller
     }
     @IBAction func didTapButton(_ sender: Any) { //for the "Tap Me!" button 
         myLabel.text = "Changed with Code!"
@@ -31,6 +31,11 @@ class ViewController: UIViewController, UITextFieldDelegate { //View Controller 
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) { //will hide the keyboard if the user touches anywhere outside of the keyboard/textField
         view.endEditing(true)
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return false
     }
 
     override func didReceiveMemoryWarning() {
