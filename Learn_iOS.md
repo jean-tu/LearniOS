@@ -54,4 +54,7 @@ You can have a question mark **(?)** around it, means that it is a wrapper. If y
 ### Delegation 
 **Delegation** is where one object delegates the handling of its events to another object 
 
-You have to flag a class as being able to have a delagate
+You have to flag a class as being able to have a delagate. We can have the keyboard disappear by having the user click on the "Return" key in the lower right hand corner. Or we can go to the **Main.storyboard** view click on the ticker symbol and find the fiel that says **Return Key**, we can then change it to "Done". Below is an image of where you would find the button. 
+
+![image of how to make the blue done button](imgs/delegate-done.png)
+![this is what it looks like with the blue button](imgs/blue-done-button.png)
