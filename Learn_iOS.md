@@ -58,3 +58,15 @@ You have to flag a class as being able to have a delagate. We can have the keybo
 
 ![image of how to make the blue done button](imgs/delegate-done.png)
 ![this is what it looks like with the blue button](imgs/blue-done-button.png)
+
+## Troubleshooting connections 
+The circle icons on the left of the line in teh ViewController view should be filled. If it is not filled, then it means that there is no connection to that outlet. 
+
+Can go to the **Main.storyboard** view to see the items with connections that will show in the "Outlet" section in the upper right hand corner. 
+
+It will have the image of the right arrow in the circle and click on the view controller in the GUI. 
+
+![Shows what outlets have connections](imgs/missing-connection.png)
+
+## Planning an Application 
+ 
