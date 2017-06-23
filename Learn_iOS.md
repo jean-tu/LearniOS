@@ -68,5 +68,7 @@ It will have the image of the right arrow in the circle and click on the view co
 
 ![Shows what outlets have connections](imgs/missing-connection.png)
 
-## Planning an Application 
+## Programming
+
+You can have a full item to be used if you do **"\(item)"** 
  
