@@ -49,3 +49,23 @@ print(maxHealth)
 * Logical operators (!, &&, ||)
 * Ranges (1...5 or 1..<5)
 
+## Interpolated String
+
+```swift
+let questInfo_Interpolated = "I'm not sure you're ready to \(activeQuest) yet, it's \(questDifficulty) level."
+```
+
+## Optionals
+
+```swift
+// Creating optionals
+var itemGathered: String?="Pickaxe"
+var isExchangeable: Bool?
+
+// Forced unwrapping
+
+print(itemGathered!)
+```
+
+* `?` = optional 
+* in order to print it we have to unwrap it, the problem with force unwrapping is that we understand that the variable is not nil (null) 
